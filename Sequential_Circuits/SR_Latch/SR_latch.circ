@@ -130,39 +130,39 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="circuitvhdl" val="false"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(620,300)" to="(620,340)"/>
-    <wire from="(620,240)" to="(620,280)"/>
-    <wire from="(500,260)" to="(530,260)"/>
-    <wire from="(590,340)" to="(620,340)"/>
-    <wire from="(590,240)" to="(620,240)"/>
-    <wire from="(510,320)" to="(530,320)"/>
-    <wire from="(500,300)" to="(620,300)"/>
-    <wire from="(500,260)" to="(500,300)"/>
-    <wire from="(510,280)" to="(510,320)"/>
-    <wire from="(510,280)" to="(620,280)"/>
-    <wire from="(450,220)" to="(530,220)"/>
-    <wire from="(620,240)" to="(700,240)"/>
-    <wire from="(620,340)" to="(700,340)"/>
-    <wire from="(460,360)" to="(530,360)"/>
-    <comp lib="0" loc="(700,240)" name="Pin">
+    <wire from="(620,250)" to="(670,250)"/>
+    <wire from="(620,360)" to="(680,360)"/>
+    <wire from="(500,320)" to="(620,320)"/>
+    <wire from="(430,230)" to="(540,230)"/>
+    <wire from="(430,380)" to="(540,380)"/>
+    <wire from="(520,300)" to="(620,300)"/>
+    <wire from="(500,270)" to="(540,270)"/>
+    <wire from="(520,300)" to="(520,340)"/>
+    <wire from="(620,320)" to="(620,360)"/>
+    <wire from="(520,340)" to="(540,340)"/>
+    <wire from="(600,360)" to="(620,360)"/>
+    <wire from="(600,250)" to="(620,250)"/>
+    <wire from="(500,270)" to="(500,320)"/>
+    <wire from="(620,250)" to="(620,300)"/>
+    <comp lib="1" loc="(600,250)" name="NOR Gate"/>
+    <comp lib="0" loc="(680,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(430,230)" name="Pin">
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="0" loc="(430,380)" name="Pin">
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="0" loc="(670,250)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Q_not"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(450,220)" name="Pin">
-      <a name="label" val="S"/>
-    </comp>
-    <comp lib="1" loc="(590,240)" name="NAND Gate"/>
-    <comp lib="0" loc="(460,360)" name="Pin">
-      <a name="label" val="R"/>
-    </comp>
-    <comp lib="1" loc="(590,340)" name="NAND Gate"/>
-    <comp lib="0" loc="(700,340)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Qt"/>
-      <a name="labelloc" val="east"/>
-    </comp>
+    <comp lib="1" loc="(600,360)" name="NOR Gate"/>
   </circuit>
 </project>
