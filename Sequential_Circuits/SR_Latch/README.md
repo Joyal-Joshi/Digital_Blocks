@@ -6,10 +6,10 @@ This simple Or gate can be used to store a bit. When the input is high the Outpu
 Instead, with a little modification the Or gate can reset, to store a bit again as shown below:
 <img width="693" height="268" alt="image" src="https://github.com/user-attachments/assets/9f288dcd-915d-47bb-8bec-7c93ff67f54c" />
 
-Converting everything Nand Gates:
-<img width="558" height="280" alt="image" src="https://github.com/user-attachments/assets/cda5788a-d83b-4b8c-bdb4-6143850011b1" />
+Converting everything to NOR Gates:
+<img width="496" height="278" alt="image" src="https://github.com/user-attachments/assets/64687ae8-d001-4b45-acf6-ff0cabed30fe" />
 
-Removing the Not gates to further simplify the Latch.
-This is the classical Set-Reset Latch:
+
+
 
 
