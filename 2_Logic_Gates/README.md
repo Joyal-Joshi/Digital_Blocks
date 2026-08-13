@@ -42,4 +42,9 @@ https://github.com/user-attachments/assets/f664291f-c487-4c4c-9ab6-df63d69b83a7
 
 https://www.falstad.com/s.php?s=iP2y8l
 
+7. Tristate Buffer
+
+https://github.com/user-attachments/assets/704ff2bf-e32f-4af7-806a-d43b4c97440a
+
+https://www.falstad.com/s.php?s=lAjdnK
 
