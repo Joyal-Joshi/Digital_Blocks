@@ -26,7 +26,12 @@ https://github.com/user-attachments/assets/accb4e9e-2b86-4b6d-a28c-2dc86c9b74b6
 
 https://www.falstad.com/s.php?s=vYGEzO
 
+5. Or Gate
 
+Nor + Not
 
+https://github.com/user-attachments/assets/6714505a-286c-4dad-9fd1-5d564deba3cb
+
+https://www.falstad.com/s.php?s=GsYdgR
 
 
