@@ -18,7 +18,13 @@ https://github.com/user-attachments/assets/ba5a873d-1d07-4c18-806f-5402fa14d046
 
 https://www.falstad.com/s.php?s=5CPurE
 
+4. And Gate
 
+Nand + Not
+
+https://github.com/user-attachments/assets/accb4e9e-2b86-4b6d-a28c-2dc86c9b74b6
+
+https://www.falstad.com/s.php?s=vYGEzO
 
 
 
