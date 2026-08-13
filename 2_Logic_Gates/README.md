@@ -34,4 +34,12 @@ https://github.com/user-attachments/assets/6714505a-286c-4dad-9fd1-5d564deba3cb
 
 https://www.falstad.com/s.php?s=GsYdgR
 
+6. Buffer
+
+Not + Not
+
+https://github.com/user-attachments/assets/f664291f-c487-4c4c-9ab6-df63d69b83a7
+
+https://www.falstad.com/s.php?s=iP2y8l
+
 
