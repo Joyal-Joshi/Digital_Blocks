@@ -48,3 +48,9 @@ https://github.com/user-attachments/assets/704ff2bf-e32f-4af7-806a-d43b4c97440a
 
 https://www.falstad.com/s.php?s=lAjdnK
 
+8. XOR gate
+
+https://github.com/user-attachments/assets/cf68ad06-2dab-4e45-a3b8-bc07649df662
+
+https://www.falstad.com/s.php?s=gJIr8I
+
