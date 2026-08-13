@@ -14,6 +14,11 @@ https://www.falstad.com/s.php?s=6gIcnP
 
 3. Nor Gate
 
+https://github.com/user-attachments/assets/ba5a873d-1d07-4c18-806f-5402fa14d046
+
+https://www.falstad.com/s.php?s=5CPurE
+
+
 
 
 
