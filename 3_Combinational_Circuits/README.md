@@ -125,5 +125,19 @@ https://github.com/user-attachments/assets/ee83337e-b2f1-41ff-a29e-600d09d0f647
 
 https://www.falstad.com/s.php?s=efT2bc
 
+## 6. 4 bit Adders
+
+Adders can be designed in many ways depending on the optimization requirements.
+
+### 6.1 Ripple Carry Adder
+
+Ripple carry adder can be used to optimize area and power.
+
+Feed the C_out of previous bits to the C_in to form the ripple carry adder.
+
+https://github.com/user-attachments/assets/ec484a14-3807-44ee-8991-2a5da14aa2bd
+
+https://www.falstad.com/s.php?s=bzLFKC
+
 
 
