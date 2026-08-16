@@ -2,11 +2,11 @@
 
 Transistors are the building block upon which the entire digital electronics is build on. There are two types of transistors: BJT and MOSFET. BJT stands for Bipolar Junction transistors and MOSFET stands for Metal-Oxide Semiconductor Field Effect Transistor. MOSFET are preferred over BJT to make digital electronics, as they don't need any gate current to operate. 
 
-MAKING OF MOSFET
+# MAKING OF MOSFET
 
    
 
-MOSFET CLASSIFICATION
+# MOSFET CLASSIFICATION
 
 Based on how they work the MOSFET can be classified into two types: enhancement type and depletion type. In enhancement type the channel is formed when the gate voltage is applied and in depletion type the channel is removed when the gate voltage is applied.
 The enhancement type MOSFET is preferred due to safety as they act as open switch when turned off.
@@ -14,7 +14,7 @@ The enhancement type MOSFET is preferred due to safety as they act as open switc
 Based on the charge carriers they can be further classified as NPN or PNP. In NPN the electrons are the charge carriers and PNP the positive charge or the absence of electrons are the charge carriers.
 
 
-WORKING OF MOSFET
+# WORKING OF MOSFET
 
 <img width="327" height="107" alt="image" src="https://github.com/user-attachments/assets/966a9f46-8304-4ba6-bb99-04828cc12a92" />
 
