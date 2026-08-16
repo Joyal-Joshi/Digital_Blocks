@@ -34,4 +34,8 @@ and to check A<B the above outputs can be passed through XNOR.
 
 This 4 bit comparator can be cascaded by using the outputs of the LSB comparators.
 
+https://github.com/user-attachments/assets/953109f0-034f-4da4-ae97-bb3b6c89a9ea
+
+https://www.falstad.com/s.php?s=BW0cQN
+
 
