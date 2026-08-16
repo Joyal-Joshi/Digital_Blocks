@@ -41,19 +41,68 @@ https://www.falstad.com/s.php?s=BW0cQN
 5. Full Adder (4 bits)
 
 Understanding 2's complement
+
 Binary digits are not stored in 2's complement due to the ease in storing 2's complement but because it is easy to operate on 2's complement. To understand why is it easy, other methods will be shown below to compare and contrast.
 
 a) MSB as the sign bit
 
-The Most significant bit can be used as the sign bit. The digit is negative when the MSB is 1 and positive when it is 0. To design a adder/subtractor for digits stored like this will be very complicated. 
+The Most significant bit can be used as the sign bit. The digit is negative when the MSB is 1 and positive when it is 0. To design a adder/subtractor for digits stored like this, will be very complicated. 
 
-There are 8 possible combinations wrt the signs of the digits and the sign of operation. Hence, 8 different adder/subtractor have to designed which needs to selected according the inputs using a multiplexer. This will increase the area, power and time needed.
+Disadvantages of using MSB as the sign bit:
+
+There are 8 possible combinations wrt the signs of the digits and the sign of operation. Hence, 8 different adder/subtractor have to designed which needs to be selected according the inputs using a multiplexer. This will increase the area, power and time needed.
 
 The second reason for not using this method is that the process of subtraction itself is complicated. Hence, a different approach is needed.
 
 b) 1's complement
 
+r's complement for a n digit number is r^n - n, and (r-1)'s complement for a n digit number is r^n-n-1.
+
 Let's take an example: 45-27
 
-Instead of subtracting 45 with 27, add 47 with 27's 9's complement which is 72 (45+72 = 117). Then, subtract 100, by simply removing 1 from the front and then add 1 to the answer to obtain (18).
+Instead of subtracting 45 with 27, add 47 with 27's 9's complement which is 72(27+72=99). That gives the answer as 117. By adding 9's complement the answer has shifted up by 99, which can be brought back by subtracting with 100 or removing the 1 in the front and then adding by 1, to get the final answer (18). 
+
+This can be done in binary which is called 1's complement. 
+
+45 = 0b00101101
+
+27 = 0b00011011
+
+1's complement of 27 = 0b11100100 (simply inverting the bits) 
+
+45 + 1's complement of 27 = 0b100010001
+
+Then taking the carry and adding it back to get the final answer: 0b00010010 which is 18.
+
+The 1's complement can be considered as the negative value of the number and stored in the memory. This automatically reserves the MSB as sign bit. Hence, whenever there is a carry, it means that subtraction has taken place, and 1 needs to be added.
+
+Disadvantages of 1's complement:
+
+There are 2 ways to represent 0 in 1's complement, which makes it difficult to use it for comparisons.
+
+The carry around addition added additional steps to the process.
+
+
+c) 2's complement
+
+Let's take the same example: 45-27
+
+Instead of subtracting 45 with 27, add with 27's 10's complement which is 73(27+73=100). Then simply subtract by 100 to get the final answer (18).
+
+Now, doing this binary:
+
+45 = 0b00101101
+
+27 = 0b00011011
+
+1's complement of 27 = 0b11100100 (simply inverting the bits) 
+
+2's complement of 27 = 0b11100101 (adding to 1's complement) 
+
+45 + 2's complement of 27 = 0b100010010 (final answer = 18)
+
+The 2's complement can be considered as the negative value of the number and stored in the memory. This automatically reserves the MSB as -ve value of the biggest possible +ve value. The 2's complement incorporates the addition of carry in it and also removes the dual zeros.
+
+
+
 
