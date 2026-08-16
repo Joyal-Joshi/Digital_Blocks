@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/cf68ad06-2dab-4e45-a3b8-bc07649df662
 
 https://www.falstad.com/s.php?s=gJIr8I
 
-8.XNOR gate
+8. XNOR gate
 
 https://github.com/user-attachments/assets/f414cccf-4c5c-41b2-b84d-a58684c8d75d
 
