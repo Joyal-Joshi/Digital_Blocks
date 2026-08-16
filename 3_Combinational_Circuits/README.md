@@ -38,4 +38,5 @@ https://github.com/user-attachments/assets/953109f0-034f-4da4-ae97-bb3b6c89a9ea
 
 https://www.falstad.com/s.php?s=BW0cQN
 
+5. Full Adder (4 bits)
 
