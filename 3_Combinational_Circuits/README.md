@@ -27,5 +27,11 @@ https://www.falstad.com/s.php?s=jHh2WN
 4. Magnitude comparator (4 bits)
 
 To check if A>B, we start form the MSB and move towards LSB if Ai = Bi until Ai > Bi.
+
 To check if A=B XNOR can be used,
+
 and to check A<B the above outputs can be passed through XNOR.
+
+This 4 bit comparator can be cascaded by using the outputs of the LSB comparators.
+
+
