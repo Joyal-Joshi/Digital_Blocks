@@ -43,7 +43,7 @@ https://www.falstad.com/s.php?s=BW0cQN
 
 Binary digits are not stored in 2's complement due to the ease in storing 2's complement but because it is easy to operate on 2's complement. To understand why is it easy, other methods will be shown below to compare and contrast.
 
-a) MSB as the sign bit
+### a) MSB as the sign bit
 
 The Most significant bit can be used as the sign bit. The digit is negative when the MSB is 1 and positive when it is 0. To design a adder/subtractor for digits stored like this, will be very complicated. 
 
@@ -53,7 +53,7 @@ There are 8 possible combinations wrt the signs of the digits and the sign of op
 
 The second reason for not using this method is that the process of subtraction itself is complicated. Hence, a different approach is needed.
 
-b) 1's complement
+### b) 1's complement
 
 r's complement for a n digit number is r^n - n, and (r-1)'s complement for a n digit number is r^n-n-1.
 
@@ -82,7 +82,7 @@ There are 2 ways to represent 0 in 1's complement, which makes it difficult to u
 The carry around addition added additional steps to the process.
 
 
-c) 2's complement
+### c) 2's complement
 
 Let's take the same example: 45-27
 
