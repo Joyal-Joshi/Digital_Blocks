@@ -42,25 +42,25 @@ https://github.com/user-attachments/assets/6714505a-286c-4dad-9fd1-5d564deba3cb
 
 https://www.falstad.com/s.php?s=GsYdgR
 
-8. XOR gate
+7. XOR gate
 
 A ⊕ B =  ĀB + AB̄
 
 One way to implement the XOR gate is by using the already derived logic gates in the formula above, which will require atleast 16 transistors.
 
-Another way, is to design at transistor level. Xor gives signal 1 when ĀB + AB̄ =1. Hence, the pull-up transistors can be designed such that ĀB + AB̄ =1. Similarily, xor gives 0 when  ĀB̄ + AB =0
+Another way, is to design at transistor level. Xor gives signal 1 when ĀB + AB̄ =1. Hence, the pull-up transistors can be designed such that ĀB + AB̄ =1. Similarily, xor gives 0 when  ĀB̄ + AB =1. Hence, the pull-down transistors can be designed such that ĀB̄ + AB =1.
 
 https://github.com/user-attachments/assets/cf68ad06-2dab-4e45-a3b8-bc07649df662
 
 https://www.falstad.com/s.php?s=gJIr8I
 
-9.XNOR gate
+8.XNOR gate
 
 https://github.com/user-attachments/assets/f414cccf-4c5c-41b2-b84d-a58684c8d75d
 
 https://www.falstad.com/s.php?s=BVef41
 
-7. Tristate Buffer
+9. Tristate Buffer
 
 https://github.com/user-attachments/assets/704ff2bf-e32f-4af7-806a-d43b4c97440a
 
