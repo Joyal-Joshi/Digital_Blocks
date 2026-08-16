@@ -23,3 +23,9 @@ Checks if two n bit digits are equal or not.
 https://github.com/user-attachments/assets/e13717ad-6252-43f6-a57b-903276d04621
 
 https://www.falstad.com/s.php?s=jHh2WN
+
+4. Magnitude comparator (4 bits)
+
+To check if A>B, we start form the MSB and move towards LSB if Ai = Bi until Ai > Bi.
+To check if A=B XNOR can be used,
+and to check A<B the above outputs can be passed through XNOR.
