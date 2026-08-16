@@ -88,7 +88,7 @@ Let's take the same example: 45-27
 
 Instead of subtracting 45 with 27, add with 27's 10's complement which is 73(27+73=100). Then simply subtract by 100 to get the final answer (18).
 
-Now, doing this binary:
+Now, doing this in binary:
 
 45 = 0b00101101
 
@@ -102,6 +102,28 @@ Now, doing this binary:
 
 The 2's complement can be considered as the negative value of the number and stored in the memory. This automatically reserves the MSB as -ve value of the biggest possible +ve value. The 2's complement incorporates the addition of carry in it and also removes the dual zeros.
 
-## 5. Full Adder (4 bits)
+## 5 Full Adder (1 bit)
+
+| C_in | A | B | S | C_out | 
+| --- | --- | --- | --- | --- |
+| 0 | 0 | 0 | 0 | 0 | 
+| 0 | 0 | 1 | 1 | 0 | 
+| 0 | 1 | 0 | 1 | 0 | 
+| 0 | 1 | 1 | 0 | 1 | 
+| 1 | 0 | 0 | 1 | 0 | 
+| 1 | 0 | 1 | 0 | 1 | 
+| 1 | 1 | 0 | 0 | 1 | 
+| 1 | 1 | 1 | 1 | 1 | 
+
+Using Sum of Products: 
+
+S = ĀBC̄ + AB̅C̄ + ĀB̅C + ABC = (A⊕B)C̄ + (ĀB̅ + AB)C = A ⊕ B ⊕ C
+
+C_out = ABC̄ + AB̅C + ĀBC + ABC = AB(C+C̄) + (A⊕B)C = AB + (A⊕B)C
+
+https://github.com/user-attachments/assets/ee83337e-b2f1-41ff-a29e-600d09d0f647
+
+https://www.falstad.com/s.php?s=efT2bc
+
 
 
