@@ -8,3 +8,6 @@ https://www.falstad.com/s.php?s=oNSezK
 
 2. Multiplexer (4 x 1)
 
+https://github.com/user-attachments/assets/074e3f0e-34ba-418d-8fc0-2fc2b93e6c76
+
+https://www.falstad.com/s.php?s=LlTB17
