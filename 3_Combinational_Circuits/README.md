@@ -38,7 +38,6 @@ https://github.com/user-attachments/assets/953109f0-034f-4da4-ae97-bb3b6c89a9ea
 
 https://www.falstad.com/s.php?s=BW0cQN
 
-5. Full Adder (4 bits)
 
 Understanding 2's complement
 
@@ -103,6 +102,6 @@ Now, doing this binary:
 
 The 2's complement can be considered as the negative value of the number and stored in the memory. This automatically reserves the MSB as -ve value of the biggest possible +ve value. The 2's complement incorporates the addition of carry in it and also removes the dual zeros.
 
-
+5. Full Adder (4 bits)
 
 
