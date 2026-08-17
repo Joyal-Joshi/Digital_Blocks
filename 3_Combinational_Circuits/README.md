@@ -157,5 +157,5 @@ https://www.falstad.com/s.php?s=w6hWUn
 
 Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
 
-the delay for n bits is of the order log(n).
+The delay for n bits is of the order log(n).
 
