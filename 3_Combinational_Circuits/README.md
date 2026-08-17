@@ -146,3 +146,10 @@ Instead of waiting for the carry to ripple through, the adder is divided into tw
 https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
 https://www.falstad.com/s.php?s=w6hWUn
+
+### 6.3 Carry Lookahead Adders
+
+Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
+
+
+
