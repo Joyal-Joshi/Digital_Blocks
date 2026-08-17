@@ -139,5 +139,6 @@ https://github.com/user-attachments/assets/ec484a14-3807-44ee-8991-2a5da14aa2bd
 
 https://www.falstad.com/s.php?s=bzLFKC
 
+### 6.2 Carry Select Adder
 
 
