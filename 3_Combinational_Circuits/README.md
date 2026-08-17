@@ -135,6 +135,8 @@ Ripple carry adder can be used to optimize area and power.
 
 Feed the C_out of previous bits to the C_in to form the ripple carry adder.
 
+The delay for n bits is of the order n.
+
 https://github.com/user-attachments/assets/3a0e4c06-0481-49a5-9c90-2071dc887db6
 
 https://www.falstad.com/s.php?s=G1FyEt
@@ -142,6 +144,10 @@ https://www.falstad.com/s.php?s=G1FyEt
 ### 6.2 Carry Select Adder (4 bits)
 
 Instead of waiting for the carry to ripple through, the adder is divided into two parts from the middle. The higher bits are solved for both possibilities of C_in simultaneously along with the lower half of the bits and later a Mux is used to select between them. This reduces the delay in the expense of power and area. The adder can be divided multiple times to get the best match the requirements of delay and area.
+
+The delay for n-bit binary is of the order sqrt(n)
+
+Instead of equally dividing the bits, bits can be divided into smaller chunks and increase progressively to get smaller delays.
 
 https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
@@ -151,5 +157,5 @@ https://www.falstad.com/s.php?s=w6hWUn
 
 Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
 
-
+the delay for n bits is of the order log(n).
 
