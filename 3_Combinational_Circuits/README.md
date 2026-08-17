@@ -129,7 +129,7 @@ https://www.falstad.com/s.php?s=efT2bc
 
 Adders can be designed in many ways depending on the optimization requirements.
 
-### 6.1 Ripple Carry Adder
+### 6.1 Ripple Carry Adder (4 bits)
 
 Ripple carry adder can be used to optimize area and power.
 
@@ -139,6 +139,7 @@ https://github.com/user-attachments/assets/ec484a14-3807-44ee-8991-2a5da14aa2bd
 
 https://www.falstad.com/s.php?s=bzLFKC
 
-### 6.2 Carry Select Adder
+### 6.2 Carry Select Adder (4 bits)
+
 
 
