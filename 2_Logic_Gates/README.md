@@ -1,6 +1,6 @@
 Building the basic logic gates using CMOS:
 
-Always connect pull-down resistors to limit the current. The logic gates don't use the pulldown resistors.
+Always connect pull-down resistors to limit the current. The logic gates below don't use the pulldown resistors.
 
 ## 1. Not Gate:
 
