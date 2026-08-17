@@ -135,11 +135,13 @@ Ripple carry adder can be used to optimize area and power.
 
 Feed the C_out of previous bits to the C_in to form the ripple carry adder.
 
-https://github.com/user-attachments/assets/ec484a14-3807-44ee-8991-2a5da14aa2bd
+https://github.com/user-attachments/assets/3a0e4c06-0481-49a5-9c90-2071dc887db6
 
-https://www.falstad.com/s.php?s=bzLFKC
+https://www.falstad.com/s.php?s=G1FyEt
 
 ### 6.2 Carry Select Adder (4 bits)
+
+
 
 
 
