@@ -143,4 +143,6 @@ https://www.falstad.com/s.php?s=G1FyEt
 
 Instead of waiting for the carry to ripple through, the adder is divided into two parts from the middle. The higher bits are solved for both possibilities of C_in simultaneously along with the lower half of the bits and later a Mux is used to select between them. This reduces the delay in the expense of power and area. The adder can be divided multiple times to get the best match the requirements of delay and area.
 
+https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
+https://www.falstad.com/s.php?s=w6hWUn
