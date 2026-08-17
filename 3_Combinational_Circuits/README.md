@@ -147,7 +147,11 @@ Instead of waiting for the carry to ripple through, the adder is divided into tw
 
 The delay for n-bit binary is of the order sqrt(n)
 
+<img width="1736" height="685" alt="image" src="https://github.com/user-attachments/assets/8c80c671-ec86-4499-b0fa-576dbb203ffc" />
+
 Instead of equally dividing the bits, bits can be divided into smaller chunks and increase progressively to get smaller delays.
+
+<img width="1753" height="615" alt="image" src="https://github.com/user-attachments/assets/87371f34-ad8a-4252-868f-96d730bbb8a5" />
 
 https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
