@@ -194,8 +194,11 @@ The Generate Propogate / Carry module
 <img width="835" height="427" alt="image" src="https://github.com/user-attachments/assets/af9e35a8-163b-4687-a29c-72dd9bf3dbac" />
 
 G_HL = G_H + P_H * G_L
+
 P_HL = P_H * P_L
+
 C_H = G_L + P_L * C_in
+
 C_L = C_in
 
 https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
