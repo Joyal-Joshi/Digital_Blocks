@@ -14,7 +14,7 @@ Converts n inputs to binary.
 
 https://github.com/user-attachments/assets/4616f5c7-28fe-4b41-8198-86586965a3b9
 
-Waiting for short URL for web service...
+https://www.falstad.com/s.php?s=bSbUu0
 
 ## 2. Multiplexer (4 x 1)
    
