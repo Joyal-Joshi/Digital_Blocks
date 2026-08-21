@@ -10,6 +10,6 @@ Converting everything to NOR Gates:
 <img width="496" height="278" alt="image" src="https://github.com/user-attachments/assets/64687ae8-d001-4b45-acf6-ff0cabed30fe" />
 
 
-
+https://www.falstad.com/s.php?s=2GAtB4
 
 
