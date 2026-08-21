@@ -1,3 +1,5 @@
+
+
 Building Combinational circuits using the derived Logic gates:
 
 ## 1. Decoder (2 x 4)
@@ -179,3 +181,6 @@ Instead of waiting for the carry to ripple through, the carries can be calculate
 
 The delay for n bits is of the order log(n).
 
+https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
+
+https://www.falstad.com/s.php?s=gz2sbL
