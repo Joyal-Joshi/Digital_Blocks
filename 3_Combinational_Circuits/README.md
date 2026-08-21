@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/30f23bbb-69b6-4c66-9892-44805f020e8f
 
 https://www.falstad.com/s.php?s=oNSezK
 
-## 2. Encoder(4x2)
+## 2. Encoder(4 x 2)
 
 Converts n inputs to binary.
 
@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/4616f5c7-28fe-4b41-8198-86586965a3b9
 
 https://www.falstad.com/s.php?s=bSbUu0
 
-## 2. Multiplexer (4 x 1)
+## 3. Multiplexer (4 x 1)
    
 Selects output from 2^n inputs using n bit encode.
 
@@ -24,7 +24,15 @@ https://github.com/user-attachments/assets/074e3f0e-34ba-418d-8fc0-2fc2b93e6c76
 
 https://www.falstad.com/s.php?s=LlTB17
 
-## 3. Equality Checker (4 bits)
+## 4. Demultiplexer (1 x 4)
+
+The input is only passed onto the output line, given by the binary encode.
+
+https://github.com/user-attachments/assets/3e6953fc-5116-4b76-86cb-83ceb7cf5b08
+
+Waiting for short URL for web service...
+
+## 5. Equality Checker (4 bits)
 
 Checks if two n bit digits are equal or not.
 
@@ -32,7 +40,7 @@ https://github.com/user-attachments/assets/e13717ad-6252-43f6-a57b-903276d04621
 
 https://www.falstad.com/s.php?s=jHh2WN
 
-## 4. Magnitude comparator (4 bits)
+## 6. Magnitude comparator (4 bits)
 
 To check if A>B, we start form the MSB and move towards LSB if Ai = Bi until Ai > Bi.
 
@@ -110,7 +118,7 @@ Now, doing this in binary:
 
 The 2's complement can be considered as the negative value of the number and stored in the memory. This automatically reserves the MSB as -ve value of the biggest possible +ve value. The 2's complement incorporates the addition of carry in it and also removes the dual zeros.
 
-## 5 Full Adder (1 bit)
+## 7. Full Adder (1 bit)
 
 | C_in | A | B | S | C_out | 
 | --- | --- | --- | --- | --- |
@@ -133,11 +141,11 @@ https://github.com/user-attachments/assets/ee83337e-b2f1-41ff-a29e-600d09d0f647
 
 https://www.falstad.com/s.php?s=efT2bc
 
-## 6. 4 bit Adders
+## 8. 4 bit Adders
 
 Adders can be designed in many ways depending on the optimization requirements.
 
-### 6.1 Ripple Carry Adder (4 bits)
+### 8.1 Ripple Carry Adder (4 bits)
 
 Ripple carry adder can be used to optimize area and power.
 
@@ -149,7 +157,7 @@ https://github.com/user-attachments/assets/3a0e4c06-0481-49a5-9c90-2071dc887db6
 
 https://www.falstad.com/s.php?s=G1FyEt
 
-### 6.2 Carry Select Adder (4 bits)
+### 8.2 Carry Select Adder (4 bits)
 
 Instead of waiting for the carry to ripple through, the adder is divided into two parts from the middle. The higher bits are solved for both possibilities of C_in simultaneously along with the lower half of the bits and later a Mux is used to select between them. This reduces the delay in the expense of power and area. The adder can be divided multiple times to get the best match the requirements of delay and area.
 
@@ -165,7 +173,7 @@ https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
 https://www.falstad.com/s.php?s=w6hWUn
 
-### 6.3 Carry Lookahead Adders
+### 8.3 Carry Lookahead Adders
 
 Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
 
