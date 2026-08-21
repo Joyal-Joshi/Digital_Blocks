@@ -175,11 +175,13 @@ https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
 https://www.falstad.com/s.php?s=w6hWUn
 
-### 8.3 Carry Lookahead Adders
+### 8.3 Carry Lookahead Adder/Subtractor
 
 Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
 
 The delay for n bits is of the order log(n).
+
+The concepts from 2's complement is used to add the subtractor module to the base CLA adder.
 
 https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
 
