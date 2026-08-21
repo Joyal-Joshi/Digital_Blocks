@@ -8,6 +8,14 @@ https://github.com/user-attachments/assets/30f23bbb-69b6-4c66-9892-44805f020e8f
 
 https://www.falstad.com/s.php?s=oNSezK
 
+## 2. Encoder(4x2)
+
+Converts n inputs to binary.
+
+https://github.com/user-attachments/assets/4616f5c7-28fe-4b41-8198-86586965a3b9
+
+Waiting for short URL for web service...
+
 ## 2. Multiplexer (4 x 1)
    
 Selects output from 2^n inputs using n bit encode.
