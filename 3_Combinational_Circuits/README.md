@@ -183,6 +183,17 @@ The delay for n bits is of the order log(n).
 
 The concepts from 2's complement is used to add the subtractor module to the base CLA adder.
 
+Modified Full Adders for CLA:
+
+<img width="718" height="399" alt="image" src="https://github.com/user-attachments/assets/fab664c2-cfae-43b5-8328-3133e246194c" />
+
+The C_out calculation can be removed from the full adder and AB and A^B can be outputted instead for calculating the carry.
+
+
+The Generate Propogate / Carry module
+<img width="835" height="427" alt="image" src="https://github.com/user-attachments/assets/af9e35a8-163b-4687-a29c-72dd9bf3dbac" />
+
+
 https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
 
 https://www.falstad.com/s.php?s=gz2sbL
