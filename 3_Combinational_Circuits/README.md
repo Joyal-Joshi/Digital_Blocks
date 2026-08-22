@@ -175,7 +175,7 @@ https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
 https://www.falstad.com/s.php?s=w6hWUn
 
-### 8.3 Carry Lookahead Adder/Subtractor
+### 8.3 Carry Lookahead Adder/Subtractor (4 bit)
 
 Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
 
@@ -204,3 +204,6 @@ C_L = C_in
 https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
 
 https://www.falstad.com/s.php?s=gz2sbL
+
+## 9.Multiplier (4 bit)
+
