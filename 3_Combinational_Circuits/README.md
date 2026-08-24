@@ -32,7 +32,7 @@ The input is only passed onto the output line, given by the binary encode.
 
 https://github.com/user-attachments/assets/3e6953fc-5116-4b76-86cb-83ceb7cf5b08
 
-Waiting for short URL for web service...
+https://www.falstad.com/s.php?s=nEP2gi
 
 ## 5. Equality Checker (4 bits)
 
@@ -207,3 +207,8 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ## 9.Multiplier (4 bit)
 
+### 9.1 Direct Method
+
+<img width="491" height="277" alt="image" src="https://github.com/user-attachments/assets/facec2a6-0ee0-468b-9b74-bff8a146fe49" />
+
+The way multiplication is done normally is directly done using hardware in one clock cycle.
