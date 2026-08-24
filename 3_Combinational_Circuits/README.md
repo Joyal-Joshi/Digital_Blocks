@@ -207,7 +207,7 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ## 9.Multiplier (4 bit)
 
-### 9.1 Direct Method
+### 9.1 Direct Method Unsigned Multiplier
 
 <img width="890" height="380" alt="image" src="https://github.com/user-attachments/assets/41fcc4c7-054d-4203-91f7-e454bca85c31" />
 
