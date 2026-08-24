@@ -209,6 +209,11 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ### 9.1 Direct Method
 
-<img width="491" height="277" alt="image" src="https://github.com/user-attachments/assets/facec2a6-0ee0-468b-9b74-bff8a146fe49" />
+<img width="890" height="380" alt="image" src="https://github.com/user-attachments/assets/41fcc4c7-054d-4203-91f7-e454bca85c31" />
 
 The way multiplication is done normally is directly done using hardware in one clock cycle.
+
+https://github.com/user-attachments/assets/0da3f334-1b20-4970-bd94-181a42e689dc
+
+https://www.falstad.com/s.php?s=hE9c3l
+
