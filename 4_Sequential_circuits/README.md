@@ -74,9 +74,9 @@ The State of the output is unknown when both Set and Reset are high simultaneous
 
 The pulse width should be smaller than the time to loop around in JK Flip-Flops to prevent racing. It is better to use Master-Slave Flip-Flops to avoid racing conditions.
 
-https://github.com/user-attachments/assets/72c60138-d477-4356-a9cb-d7a36c03fe34
+https://github.com/user-attachments/assets/8159ef24-1674-450f-9b04-6c3dee768bcf
 
-https://www.falstad.com/s.php?s=shNFWi
+https://www.falstad.com/s.php?s=CL3UQQ
 
 ## 2.4. T Flip-Flop
 
