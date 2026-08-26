@@ -48,7 +48,7 @@ The sampling time can be reduced by passing the clock signal through a pulse gen
 
 https://github.com/user-attachments/assets/27da4022-5b01-4160-bf89-c4d9a30ff188
 
-The pulse width in the above is 3*t_pd of the not gate. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum number of Not gates can be decided.
+The pulse width above is 3*t_pd of the not gate. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum number of Not gates can be decided.
 
 ## 2.1.2. Master-Slave SR Flip-Flop
 
