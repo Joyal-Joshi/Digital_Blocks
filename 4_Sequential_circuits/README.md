@@ -36,3 +36,8 @@ https://github.com/user-attachments/assets/86e1f68a-fd2f-41cc-a166-d44627811afe
 
 https://www.falstad.com/s.php?s=SQUtda
 
+## 2.2 D FLip-Flop
+
+https://github.com/user-attachments/assets/8ac80d96-9de4-49ff-a3c9-e0462fb3452a
+
+https://www.falstad.com/s.php?s=UiDA9H
