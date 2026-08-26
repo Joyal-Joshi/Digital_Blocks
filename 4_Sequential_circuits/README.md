@@ -52,3 +52,6 @@ Instead of one, Flip-Flop, two Flip-Flops are used in series. The first Flip-Flo
 
 The sampling time can be reduced by passing the clock signal through a pulse generator. However, the pulse width should be long enough to capture the value and short enough to prevent timing issues.
 
+https://github.com/user-attachments/assets/27da4022-5b01-4160-bf89-c4d9a30ff188
+
+The pulse width in the above is 3*t_pd of the not gate. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum number of Not gates can be decided.
