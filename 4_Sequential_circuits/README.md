@@ -22,3 +22,6 @@ https://www.falstad.com/s.php?s=7v1qmD
 
 The SR latch can be modified, to store a bit of data when the Enable bit is on.
 
+https://github.com/user-attachments/assets/aa708f5f-fbe8-4a15-a275-a15d309323a4
+
+https://www.falstad.com/s.php?s=JVLr6v
