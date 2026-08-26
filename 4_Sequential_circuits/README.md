@@ -64,8 +64,14 @@ https://www.falstad.com/s.php?s=I6KpDq
 
 Pulse generators will be used for Flip-Flops designed  below.
 
-## 2.2 D FLip-Flop
+## 2.2 D Flip-Flop
 
 https://github.com/user-attachments/assets/40400947-9c1d-4ba0-9e52-323359881053
 
 https://www.falstad.com/s.php?s=tbtAUE
+
+## 2.3. JK Flip-Flop
+
+The State of the output is unknown when both Set and Reset are high simultaneously. With some modifications in SR Flip-Flop, this unused state can be used, to toggle between High and Low.
+
+
