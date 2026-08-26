@@ -48,7 +48,7 @@ The sampling time can be reduced by passing the clock signal through a pulse gen
 
 https://github.com/user-attachments/assets/afbc88eb-24e3-42b1-806d-1623738ab27b
 
-The pulse width above is t_pd_not + t_pd_and. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum number of Not gates can be decided.
+The pulse width above is t_pd_not + t_pd_and. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum pulse width can be calculated.
 
 ## 2.1.2. Master-Slave SR Flip-Flop
 
@@ -73,6 +73,8 @@ https://www.falstad.com/s.php?s=tbtAUE
 ## 2.3. JK Flip-Flop
 
 The State of the output is unknown when both Set and Reset are high simultaneously. With some modifications in SR Flip-Flop, this unused state can be used, to toggle between High and Low.
+
+The pulse width should be smaller than the time to loop around in JK Flip-Flops to prevent racing.
 
 https://github.com/user-attachments/assets/72c60138-d477-4356-a9cb-d7a36c03fe34
 
