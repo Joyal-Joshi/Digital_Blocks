@@ -156,7 +156,9 @@ Feed the C_out of previous bits to the C_in to form the ripple carry adder.
 The delay for n bits is of the order n.
 
 Latency : O(N)
+
 Throughput: O(1/N)
+
 Hardware: O(N)
 
 https://github.com/user-attachments/assets/3a0e4c06-0481-49a5-9c90-2071dc887db6
@@ -176,7 +178,9 @@ Instead of equally dividing the bits, bits can be divided into smaller chunks an
 <img width="1753" height="615" alt="image" src="https://github.com/user-attachments/assets/87371f34-ad8a-4252-868f-96d730bbb8a5" />
 
 Latency : O(sqrt(N))
+
 Throughput: O(1/sqrt(N))
+
 Hardware: O(2N)
 
 https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
@@ -210,7 +214,9 @@ C_H = G_L + P_L * C_in
 C_L = C_in
 
 Latency : O(log(N))
+
 Throughput: O(1/log(N))
+
 Hardware: O(2N)
 
 https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
