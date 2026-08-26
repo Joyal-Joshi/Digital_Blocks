@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/c79c1ba6-3e9d-410d-9057-2a9f94e0057b
 
 https://www.falstad.com/s.php?s=7v1qmD
 
-## D Latch
+## 1.2 D Latch
 
 The SR latch can be modified, to store a bit of data when the Enable bit is on.
 
@@ -26,21 +26,15 @@ https://github.com/user-attachments/assets/aa708f5f-fbe8-4a15-a275-a15d309323a4
 
 https://www.falstad.com/s.php?s=JVLr6v
 
-#2 . Flip-Flops
+# 2. Flip-Flops
 
 The latches can be modified to be synchronous with the clock signal. The Flip-Flop only changes when the clock signal is high.
 
-## 2.1 SR Flip-Flop
+## 2.1.1 SR Flip-Flop
 
 https://github.com/user-attachments/assets/86e1f68a-fd2f-41cc-a166-d44627811afe
 
 https://www.falstad.com/s.php?s=SQUtda
-
-## 2.2 D FLip-Flop
-
-https://github.com/user-attachments/assets/8ac80d96-9de4-49ff-a3c9-e0462fb3452a
-
-https://www.falstad.com/s.php?s=UiDA9H
 
 The Clock high signal represents the sampling time of the Flip-Flops. The input signal can be unstable within this period making the output unstable. This can be solved in two different ways:
 
@@ -55,3 +49,22 @@ The sampling time can be reduced by passing the clock signal through a pulse gen
 https://github.com/user-attachments/assets/27da4022-5b01-4160-bf89-c4d9a30ff188
 
 The pulse width in the above is 3*t_pd of the not gate. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum number of Not gates can be decided.
+
+## 2.1.2 Master-Slave SR Flip-Flop
+
+https://github.com/user-attachments/assets/9321cc9a-a78c-48f7-87a9-2ed72123be17
+
+https://www.falstad.com/s.php?s=zO7eXA
+
+## 2.1.3 Edge Triggered SR Flip-Flop
+
+
+Pulse generators will be used for Flip-Flops designed  below.
+
+## 2.2 D FLip-Flop
+
+https://github.com/user-attachments/assets/8ac80d96-9de4-49ff-a3c9-e0462fb3452a
+
+https://www.falstad.com/s.php?s=UiDA9H
+
+
