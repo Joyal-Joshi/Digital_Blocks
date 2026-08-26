@@ -171,17 +171,17 @@ Instead of waiting for the carry to ripple through, the adder is divided into tw
 
 The delay for n-bit binary is of the order sqrt(n)
 
-<img width="1736" height="685" alt="image" src="https://github.com/user-attachments/assets/8c80c671-ec86-4499-b0fa-576dbb203ffc" />
-
-Instead of equally dividing the bits, bits can be divided into smaller chunks and increase progressively to get smaller delays.
-
-<img width="1753" height="615" alt="image" src="https://github.com/user-attachments/assets/87371f34-ad8a-4252-868f-96d730bbb8a5" />
-
 Latency : O(sqrt(N))
 
 Throughput: O(1/sqrt(N))
 
 Hardware: O(2N)
+
+<img width="1736" height="685" alt="image" src="https://github.com/user-attachments/assets/8c80c671-ec86-4499-b0fa-576dbb203ffc" />
+
+Instead of equally dividing the bits, bits can be divided into smaller chunks and increase progressively to get smaller delays.
+
+<img width="1753" height="615" alt="image" src="https://github.com/user-attachments/assets/87371f34-ad8a-4252-868f-96d730bbb8a5" />
 
 https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
@@ -194,6 +194,12 @@ Instead of waiting for the carry to ripple through, the carries can be calculate
 The delay for n bits is of the order log(n).
 
 The concepts from 2's complement is used to add the subtractor module to the base CLA adder.
+
+Latency : O(log(N))
+
+Throughput: O(1/log(N))
+
+Hardware: O(2N)
 
 Modified Full Adders for CLA:
 
@@ -212,12 +218,6 @@ P_HL = P_H * P_L
 C_H = G_L + P_L * C_in
 
 C_L = C_in
-
-Latency : O(log(N))
-
-Throughput: O(1/log(N))
-
-Hardware: O(2N)
 
 https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
 
