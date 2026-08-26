@@ -41,3 +41,14 @@ https://www.falstad.com/s.php?s=SQUtda
 https://github.com/user-attachments/assets/8ac80d96-9de4-49ff-a3c9-e0462fb3452a
 
 https://www.falstad.com/s.php?s=UiDA9H
+
+The Clock high signal represents the sampling time of the Flip-Flops. The input signal can be unstable within this period making the output unstable. This can be solved in two different ways:
+
+### 1 Master-Slave Flip-Flops
+
+Instead of one, Flip-Flop, two Flip-Flops are used in series. The first Flip-Flop samples the unstable input. At the low edge the stored bit in the first flip-flop  which is stable is passed to the second flip-flop.
+
+### 2 Edge Triggered Flip-Flops
+
+The sampling time can be reduced by passing the clock signal through a pulse generator. However, the pulse width should be long enough to capture the value and short enough to prevent timing issues.
+
