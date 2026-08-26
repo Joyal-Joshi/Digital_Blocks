@@ -236,7 +236,9 @@ https://github.com/user-attachments/assets/0da3f334-1b20-4970-bd94-181a42e689dc
 https://www.falstad.com/s.php?s=hE9c3l
 
 Latency : O(2N)
+
 Throughput: O(1/2N)
+
 Hardware: O(N^2)
 
 
