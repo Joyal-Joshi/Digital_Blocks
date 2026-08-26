@@ -58,13 +58,14 @@ https://www.falstad.com/s.php?s=zO7eXA
 
 ## 2.1.3. Edge Triggered SR Flip-Flop
 
+https://github.com/user-attachments/assets/9059467e-d2d5-433d-aa85-2178b405d591
+
+https://www.falstad.com/s.php?s=I6KpDq
 
 Pulse generators will be used for Flip-Flops designed  below.
 
 ## 2.2 D FLip-Flop
 
-https://github.com/user-attachments/assets/8ac80d96-9de4-49ff-a3c9-e0462fb3452a
+https://github.com/user-attachments/assets/40400947-9c1d-4ba0-9e52-323359881053
 
-https://www.falstad.com/s.php?s=UiDA9H
-
-
+https://www.falstad.com/s.php?s=tbtAUE
