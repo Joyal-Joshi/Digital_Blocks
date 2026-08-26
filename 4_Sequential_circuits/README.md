@@ -25,3 +25,14 @@ The SR latch can be modified, to store a bit of data when the Enable bit is on.
 https://github.com/user-attachments/assets/aa708f5f-fbe8-4a15-a275-a15d309323a4
 
 https://www.falstad.com/s.php?s=JVLr6v
+
+#2 . Flip-Flops
+
+The latches can be modified to be synchronous with the clock signal. The Flip-Flop only changes when the clock signal is high.
+
+## 2.1 SR Flip-Flop
+
+https://github.com/user-attachments/assets/86e1f68a-fd2f-41cc-a166-d44627811afe
+
+https://www.falstad.com/s.php?s=SQUtda
+
