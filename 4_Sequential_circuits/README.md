@@ -20,5 +20,5 @@ https://www.falstad.com/s.php?s=7v1qmD
 
 ## D Latch
 
-The SR latch can be modified, to store a bit of data when the Enable is on.
+The SR latch can be modified, to store a bit of data when the Enable bit is on.
 
