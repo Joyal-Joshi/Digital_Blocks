@@ -62,8 +62,6 @@ https://github.com/user-attachments/assets/9059467e-d2d5-433d-aa85-2178b405d591
 
 https://www.falstad.com/s.php?s=I6KpDq
 
-Pulse generators will be used for Flip-Flops designed  below.
-
 ## 2.2 D Flip-Flop
 
 https://github.com/user-attachments/assets/40400947-9c1d-4ba0-9e52-323359881053
@@ -74,8 +72,14 @@ https://www.falstad.com/s.php?s=tbtAUE
 
 The State of the output is unknown when both Set and Reset are high simultaneously. With some modifications in SR Flip-Flop, this unused state can be used, to toggle between High and Low.
 
-The pulse width should be smaller than the time to loop around in JK Flip-Flops to prevent racing.
+The pulse width should be smaller than the time to loop around in JK Flip-Flops to prevent racing. It is better to use Master-Slave Flip-Flops to avoid racing conditions.
 
 https://github.com/user-attachments/assets/72c60138-d477-4356-a9cb-d7a36c03fe34
 
 https://www.falstad.com/s.php?s=shNFWi
+
+## 2.4. T Flip-Flop
+
+Instead of two separate inputs to set and reset, one common Toggle bit can be used to either switch on or off the toggle.
+
+Similar to JK Flip-Flops, Master-Slave Flip-Flops are used to prevent racing.
