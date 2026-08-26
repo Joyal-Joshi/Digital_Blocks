@@ -2,7 +2,7 @@ Building Sequential circuits using the derived Logic Gates:
 
 # 1. Latch
 
-## 1.1 S-R Latch
+## 1.1. S-R Latch
 
 Consider, an OR Gate where the output is fed back to one of its inputs. The value given to the other input will be trapped/latched or stored forever. This method can be used to store bits.
 
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/c79c1ba6-3e9d-410d-9057-2a9f94e0057b
 
 https://www.falstad.com/s.php?s=7v1qmD
 
-## 1.2 D Latch
+## 1.2. Gated D Latch
 
 The SR latch can be modified, to store a bit of data when the Enable bit is on.
 
@@ -30,7 +30,7 @@ https://www.falstad.com/s.php?s=JVLr6v
 
 The latches can be modified to be synchronous with the clock signal. The Flip-Flop only changes when the clock signal is high.
 
-## 2.1.1 SR Flip-Flop
+## 2.1.1. SR Flip-Flop
 
 https://github.com/user-attachments/assets/86e1f68a-fd2f-41cc-a166-d44627811afe
 
@@ -38,11 +38,11 @@ https://www.falstad.com/s.php?s=SQUtda
 
 The Clock high signal represents the sampling time of the Flip-Flops. The input signal can be unstable within this period making the output unstable. This can be solved in two different ways:
 
-### 1 Master-Slave Flip-Flops
+### 1. Master-Slave Flip-Flops
 
 Instead of one, Flip-Flop, two Flip-Flops are used in series. The first Flip-Flop samples the unstable input. At the low edge the stored bit in the first flip-flop  which is stable is passed to the second flip-flop.
 
-### 2 Edge Triggered Flip-Flops
+### 2. Edge Triggered Flip-Flops
 
 The sampling time can be reduced by passing the clock signal through a pulse generator. However, the pulse width should be long enough to capture the value and short enough to prevent timing issues.
 
@@ -50,13 +50,13 @@ https://github.com/user-attachments/assets/27da4022-5b01-4160-bf89-c4d9a30ff188
 
 The pulse width in the above is 3*t_pd of the not gate. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum number of Not gates can be decided.
 
-## 2.1.2 Master-Slave SR Flip-Flop
+## 2.1.2. Master-Slave SR Flip-Flop
 
 https://github.com/user-attachments/assets/9321cc9a-a78c-48f7-87a9-2ed72123be17
 
 https://www.falstad.com/s.php?s=zO7eXA
 
-## 2.1.3 Edge Triggered SR Flip-Flop
+## 2.1.3. Edge Triggered SR Flip-Flop
 
 
 Pulse generators will be used for Flip-Flops designed  below.
