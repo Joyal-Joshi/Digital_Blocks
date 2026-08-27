@@ -52,15 +52,17 @@ The pulse width above is t_pd_not + t_pd_and. The pulse width should be above sl
 
 ## 2.1.2. Master-Slave SR Flip-Flop
 
-https://github.com/user-attachments/assets/9321cc9a-a78c-48f7-87a9-2ed72123be17
+https://github.com/user-attachments/assets/73a8135e-2796-4f8b-9b4a-e7620084a220
 
-https://www.falstad.com/s.php?s=zO7eXA
+https://www.falstad.com/s.php?s=J6LVAO
 
 ## 2.1.3. Edge Triggered SR Flip-Flop
 
 https://github.com/user-attachments/assets/9059467e-d2d5-433d-aa85-2178b405d591
 
 https://www.falstad.com/s.php?s=I6KpDq
+
+Master-Slave approach is considered to be better for unstable inputs. Hence, it will be used for the Flip-Flops below.
 
 ## 2.2 D Flip-Flop
 
