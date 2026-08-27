@@ -114,6 +114,7 @@ https://github.com/user-attachments/assets/0a923ebb-018a-4b9f-910e-8a9429b5c156
 
 https://www.falstad.com/s.php?s=8uEDqH
 
+## 3.3 Counter (8 bit)
 
 
 
