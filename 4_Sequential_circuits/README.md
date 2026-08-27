@@ -30,7 +30,7 @@ https://www.falstad.com/s.php?s=JVLr6v
 
 The latches can be modified to be synchronous with the clock signal. The Flip-Flop only changes when the clock signal is high.
 
-## 2.1.1. SR Flip-Flop
+## 2.1. SR Flip-Flop
 
 https://github.com/user-attachments/assets/86e1f68a-fd2f-41cc-a166-d44627811afe
 
@@ -50,13 +50,13 @@ https://github.com/user-attachments/assets/afbc88eb-24e3-42b1-806d-1623738ab27b
 
 The pulse width above is t_pd_not + t_pd_and. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum pulse width can be calculated.
 
-## 2.1.2. Master-Slave SR Flip-Flop
+## 2.1.1. Master-Slave SR Flip-Flop
 
 https://github.com/user-attachments/assets/73a8135e-2796-4f8b-9b4a-e7620084a220
 
 https://www.falstad.com/s.php?s=J6LVAO
 
-## 2.1.3. Edge Triggered SR Flip-Flop
+## 2.1.2. Edge Triggered SR Flip-Flop
 
 https://github.com/user-attachments/assets/9059467e-d2d5-433d-aa85-2178b405d591
 
@@ -69,6 +69,14 @@ Master-Slave approach is considered to be better for unstable inputs and easier 
 https://github.com/user-attachments/assets/8336c5e8-72f2-475a-9cea-fcdbed02e632
 
 https://www.falstad.com/s.php?s=CO7JrL
+
+## 2.2.1 D Flip-FLop with PR & CLR
+
+The D flip-Flops will be used primarily to make Registers. Then the Preset and Clear signals can be used to reliably control the starting state of the registers.
+
+https://github.com/user-attachments/assets/495bd5a7-934e-4133-8b59-cd847ad70353
+
+https://www.falstad.com/s.php?s=GgHNZP
 
 ## 2.3. JK Flip-Flop
 
@@ -89,6 +97,11 @@ Similar to JK Flip-Flops, Master-Slave Flip-Flops are used to prevent racing.
 https://github.com/user-attachments/assets/6e10239a-0096-49c0-bc8f-798a3cd712f3
 
 https://www.falstad.com/s.php?s=o0bz1G
+
+## 3. Registers (8 bit)
+
+Flip-Flops can be used in parallel to form the Registers. Registers are used to store multiple bits.
+
 
 
 
