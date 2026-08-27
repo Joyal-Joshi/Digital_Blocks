@@ -102,6 +102,12 @@ https://www.falstad.com/s.php?s=o0bz1G
 
 Flip-Flops can be used in parallel to form the Registers. Registers are used to store multiple bits.
 
+https://github.com/user-attachments/assets/69c3b378-0bb5-49f6-8e97-4e149542fb26
+
+https://www.falstad.com/s.php?s=WeEuRZ
+
+
+
 
 
 
