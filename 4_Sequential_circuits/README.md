@@ -62,13 +62,13 @@ https://github.com/user-attachments/assets/9059467e-d2d5-433d-aa85-2178b405d591
 
 https://www.falstad.com/s.php?s=I6KpDq
 
-Master-Slave approach is considered to be better for unstable inputs. Hence, it will be used for the Flip-Flops below.
+Master-Slave approach is considered to be better for unstable inputs and easier to design. Hence, it will be used for the Flip-Flops below.
 
 ## 2.2 D Flip-Flop
 
-https://github.com/user-attachments/assets/40400947-9c1d-4ba0-9e52-323359881053
+https://github.com/user-attachments/assets/8336c5e8-72f2-475a-9cea-fcdbed02e632
 
-https://www.falstad.com/s.php?s=tbtAUE
+https://www.falstad.com/s.php?s=CO7JrL
 
 ## 2.3. JK Flip-Flop
 
