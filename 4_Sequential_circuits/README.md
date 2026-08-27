@@ -98,7 +98,9 @@ https://github.com/user-attachments/assets/6e10239a-0096-49c0-bc8f-798a3cd712f3
 
 https://www.falstad.com/s.php?s=o0bz1G
 
-## 3.1 Registers (8 bit)
+# 3. Registers
+
+## 3.1 Register (8 bit)
 
 Flip-Flops can be used in parallel to form the Registers. Registers are used to store multiple bits.
 
