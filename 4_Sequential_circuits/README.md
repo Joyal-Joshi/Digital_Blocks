@@ -83,3 +83,12 @@ https://www.falstad.com/s.php?s=CL3UQQ
 Instead of two separate inputs to set and reset, one common Toggle bit can be used to either switch on or off the toggle.
 
 Similar to JK Flip-Flops, Master-Slave Flip-Flops are used to prevent racing.
+
+https://github.com/user-attachments/assets/6e10239a-0096-49c0-bc8f-798a3cd712f3
+
+https://www.falstad.com/s.php?s=o0bz1G
+
+
+
+
+
