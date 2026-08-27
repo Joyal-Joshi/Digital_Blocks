@@ -72,7 +72,7 @@ https://www.falstad.com/s.php?s=CO7JrL
 
 ## 2.2.1 D Flip-FLop with PR & CLR
 
-The D flip-Flops will be used primarily to make Registers. Then the Preset and Clear signals can be used to reliably control the starting state of the registers.
+The D flip-Flops will be used primarily to make Registers. Then the Preset and Clear signals can be used to reliably control the starting state of the registers. Note that, PR and CLR change the outputs asynchronously. PR and CLR can be added to any type of Flip-Flop.
 
 https://github.com/user-attachments/assets/495bd5a7-934e-4133-8b59-cd847ad70353
 
