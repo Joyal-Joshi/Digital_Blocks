@@ -1,7 +1,4 @@
 
-
-https://github.com/user-attachments/assets/ee3ea723-3403-4c68-9efe-36478d7e0770
-
 Building Sequential circuits using the derived Logic Gates:
 
 # 1. Latch
