@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/ee3ea723-3403-4c68-9efe-36478d7e0770
+
 Building Sequential circuits using the derived Logic Gates:
 
 # 1. Latch
@@ -129,8 +133,9 @@ These Flip-Flops can be used to Count up or Count down as required by using the 
 
 In this counter all the flip-flops have the same clock signal. These counters can be used to count and load data, making them more versatile. The outputs from the previous two JK Flip-Flops are passed through an AND gate and fed to the input of the next Flip-Flop to make the counter. Additional circuitry is needed to switch between loading and counting bits. Similar to Ripple Counters Q and Q' outputs can be used to generate counting up or down outputs.
 
+https://github.com/user-attachments/assets/3e422a9c-c4ed-452c-a593-3b78be5c66c3
 
-
+https://www.falstad.com/s.php?s=zxDZvi
 
 
 
