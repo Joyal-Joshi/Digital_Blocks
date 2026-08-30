@@ -126,6 +126,10 @@ Counters are also special registers that can be used to count or load bits. Coun
 JK Flip-Flops can cascaded to make the Ripple Counter, due to which every counter down the line toggles at half the frequency, leading to counting in binary. Ripple counters are not good for loading as the flip-flops are asynchronous.
 These Flip-Flops can be used to Count up or Count down as required by using the Q and Q' outputs.
 
+https://github.com/user-attachments/assets/501bbeef-cfc2-4f7a-a0d6-f3d7eae0c6b3
+
+https://www.falstad.com/s.php?s=OngoTW
+
 ### 3.3.2. Sync Counters
 
 In this counter all the flip-flops have the same clock signal. These counters can be used to count and load data, making them more versatile. The outputs from the previous two JK Flip-Flops are passed through an AND gate and fed to the input of the next Flip-Flop to make the counter. Additional circuitry is needed to switch between loading and counting bits. Similar to Ripple Counters Q and Q' outputs can be used to generate counting up or down outputs.
