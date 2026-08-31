@@ -13,3 +13,4 @@ Converting everything to NOR Gates:
 https://www.falstad.com/s.php?s=2GAtB4
 
 
+https://www.falstad.com/s.php?s=v4XyxR
