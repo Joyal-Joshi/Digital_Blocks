@@ -7,10 +7,15 @@ The problem above will be used to demonstrate the evolution of computer architec
 ## 1.a. writing C Code or pseudo-code for finding factorial of N
 
 int a = 1;
+
 int b = N;
+
 do{ 
+
   a = a * b;
+ 
   b = b - 1;
+
 }while( b!=0 );
 
 ## 1.b.Converting the code to Finite State Machine
