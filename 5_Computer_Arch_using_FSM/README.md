@@ -32,7 +32,12 @@ Any computational problem can be modeled as a Finite State machine. Any finite s
 
 <img width="389" height="174" alt="image" src="https://github.com/user-attachments/assets/4fb01fc4-c956-4e15-bdf1-12992de5c930" />
 
-From FSM diagram, three distinct states can be identified for the above problem. The start, loop and stop. The sequential circuit for the problem can consist of two registers which can store the values of a and b. The combinational circuits take the state value and inputs a and b to calculate the next state. 32 bit registers should be enough to solve this problem.
+From the FSM diagram, three distinct states can be identified for the above problem. The start, loop and stop. The sequential circuit for the problem will consist of three registers which can store the values of a, b and the state. 
+
+Instead of having the states, the values of a and b can be used as state values, but it will lead to large number of states. Hence, the state bits can be used to shrink the available states using the FSM diagram, and the values of a and b can considered as internal states.
+
+The combinational circuits take the state value and internal states a and b to calculate the next state. The combinational circuit can also be replaced with a lookup table made of ROM. 32 bit registers should be enough to solve this problem.
+
 
 
 
