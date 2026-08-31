@@ -38,6 +38,8 @@ Instead of having the states, the values of a and b can be used as state values,
 
 The combinational circuits take the state value and internal states a and b to calculate the next state. The combinational circuit can also be replaced with a lookup table made of ROM. 32 bit registers should be enough to solve this problem.
 
+https://github.com/user-attachments/assets/5648d2c4-5d18-4aa6-996f-021d53368ff1
+
 
 
 
