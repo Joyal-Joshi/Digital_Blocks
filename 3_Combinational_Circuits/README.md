@@ -205,7 +205,7 @@ where, K is the size of the each divided adder block.
 
 To , find the most optimal K, the above equation can be partially differentiated to get,
 
-K = sqrt((N*t_mux)/(2*t_carry))
+K = sqrt((N * t_mux)/(2 * t_carry))
 
 The Carry bypass adder is combined with Carry Lookahead adders, to get hybrid adders that optimize delay, area and power.
 
