@@ -199,8 +199,17 @@ Also, the above truth table shows that generate, propogate, and delete signals a
 
 <img width="733" height="195" alt="image" src="https://github.com/user-attachments/assets/0e64583a-c5e1-4304-a7f1-44f11f1bed19" />
 
+t_pd = t_gp + K*t_carry + (N/K-1)*t_mux + (K-1)*t_carry + t_sum
 
-### 8.2 Carry Select Adder (4 bits)
+where, K is the size of the each divided adder block.
+
+To , find the most optimal K, the above equation can be partially differentiated to get,
+
+K = sqrt((N*t_mux)/(2*t_carry))
+
+The Carry bypass adder is combined with Carry Lookahead adders, to get hybrid adders that optimize delay, area and power.
+
+### 8.3 Carry Select Adder (4 bits)
 
 Instead of waiting for the carry to ripple through, the adder is divided into two parts from the middle. The higher bits are solved for both possibilities of C_in simultaneously along with the lower half of the bits and later a Mux is used to select between them. This reduces the delay in the expense of power and area. The adder can be divided multiple times to get the best match the requirements of delay and area.
 
@@ -222,7 +231,7 @@ https://github.com/user-attachments/assets/641e3a20-6263-405f-b444-1b8493fd4c4d
 
 https://www.falstad.com/s.php?s=w6hWUn
 
-### 8.3 Carry Lookahead Adder/Subtractor (4 bit)
+### 8.4 Carry Lookahead Adder/Subtractor (4 bit)
 
 Instead of waiting for the carry to ripple through, the carries can be calculated simultaneously with adders to decrease the time of propogation.
 
