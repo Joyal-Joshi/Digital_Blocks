@@ -153,7 +153,7 @@ Ripple carry adder can be used to optimize area and power.
 
 Feed the C_out of previous bits to the C_in to form the ripple carry adder.
 
-The delay for n bits is of the order n.
+t_pd = (N-1)*t_carry  + t_sum
 
 Latency : O(N)
 
@@ -164,6 +164,42 @@ Hardware: O(N)
 https://github.com/user-attachments/assets/3a0e4c06-0481-49a5-9c90-2071dc887db6
 
 https://www.falstad.com/s.php?s=G1FyEt
+
+### 8.2. Carry Bypass adder 
+
+To understand carry bypass, we need to convert the inputs to Generate, Propogate and Delete Signals.
+
+C_out = AB + (A⊕B)C
+
+From the above equation it can be observed that an adder generates a C_out, irrespective of C_in when both A and B are 1. The C_in makes the C_out equal to 1 when (A⊕B) is 1. Also, the C_out is 0 if both A and B are 0 irrespective of C_in.
+
+Hence,
+
+G = AB
+
+P = (A⊕B)
+
+D = ĀB̅
+
+| C_in | A | B | S | C_out | G | P | D |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |  
+| 0 | 0 | 1 | 1 | 0 | 0 | 0 | 1 |  
+| 0 | 1 | 0 | 1 | 0 | 0 | 1 | 0 |   
+| 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 |   
+| 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |   
+| 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |   
+| 1 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |   
+| 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 |   
+
+After converting the inputs to these signals, the propogate signal can be used to bypass adders by calculating the carry beforehand, decreasing the propogation delay. The dotted line in the diagram below shows the critical path. It bypasses all the adders except for the first one due to the property of propogate and generate signals. 
+
+The above truth table shows that generate, propogate, and delete signals are mutually exclusive, that is only 1 signal is on at a time.  Hence, the generate signal can be used to break the adder, wherever the generate signal is on.
+
+<img width="733" height="195" alt="image" src="https://github.com/user-attachments/assets/0e64583a-c5e1-4304-a7f1-44f11f1bed19" />
+
+
+
 
 ### 8.2 Carry Select Adder (4 bits)
 
