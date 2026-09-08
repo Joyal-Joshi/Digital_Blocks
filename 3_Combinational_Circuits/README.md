@@ -194,11 +194,10 @@ D = ĀB̅
 
 After converting the inputs to these signals, the propogate signal can be used to bypass adders by calculating the carry beforehand, decreasing the propogation delay. The dotted line in the diagram below shows the critical path. It bypasses all the adders except for the first one due to the property of propogate and generate signals. 
 
-The above truth table shows that generate, propogate, and delete signals are mutually exclusive, that is only 1 signal is on at a time.  Hence, the generate signal can be used to break the adder, wherever the generate signal is on.
+The point where the generate signal is 1 can be used to break the adder up, as the following adder circuit is independent of the C_in and addition done before. Hence, only G0 being on will give the longest unbroken path. 
+Also, the above truth table shows that generate, propogate, and delete signals are mutually exclusive, that is only 1 signal is on at a time, making all the other propogate signals on.
 
 <img width="733" height="195" alt="image" src="https://github.com/user-attachments/assets/0e64583a-c5e1-4304-a7f1-44f11f1bed19" />
-
-
 
 
 ### 8.2 Carry Select Adder (4 bits)
