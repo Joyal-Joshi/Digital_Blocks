@@ -265,6 +265,13 @@ https://github.com/user-attachments/assets/b4fd6432-ad7c-4180-9203-8d52e27d5994
 
 https://www.falstad.com/s.php?s=gz2sbL
 
+
+### 8.5. Parallel Prefix Adders (8bits)
+
+When combining smaller CLA blocks to make bigger ones, it introduces small amount of ripple. The tree structure of Parallel Prefix Adders completely remove it.
+
+
+
 ## 9.Multiplier (4 bit)
 
 ### 9.1 Array Multiplier (4 bits)
@@ -335,6 +342,47 @@ https://github.com/user-attachments/assets/cc9898bc-7afc-4510-bc41-96f4c493e60b
 
 ### 9.5 Modified Booth Dadda multiplier with CLA as fast adder (4 bits)
 
+The Booth's recoding tries to compress the streams of 1 using a ternary number system (1,0,-1). Eg: 011100 can be represented as 100-100, as 1000 - 1 = 111.
+
+Add a dummy 0 at the end and group the bits in groups of 2 and use the table below, to do the booth's recoding:
+
+| D1 | D0 | recode |
+| --- | --- | --- | 
+| 0 | 0 | 0 | 
+| 0 | 1 | 1 |  
+| 1 | 0 | -1 | 
+| 1 | 1 | 0 | 
+
+The recoded bits are then rewritten in radix 4. This represents the Modified Booth's recoding. Again pair the bits in groups of 2 and change them to radix 4, using the table below:
+
+| D1' | D0' | Modified recode |
+| --- | --- | --- | 
+| 0 | 0 | 0 | 
+| 0 | 1 | 1 |  
+| 1 | 0 | 2 | 
+| 0 | -1 | -1 |  
+| -1 | 0 | -2 | 
+| -1 | 1 | -1 |  
+| 1 | -1 | 1 | 
+
+The modified booth recoding can be directly done by combining the above tables as shown below:
+
+| D2 | D1 | D0 | modified recode |
+| --- | --- | --- | --- |
+| 0 | 0 | 0 | 0
+| 0 | 0 | 1 | 1 
+| 0 | 1 | 0 | 1 
+| 0 | 1 | 1 | 2
+| 1 | 0 | 0 | -2
+| 1 | 0 | 1 | -1
+| 1 | 1 | 0 | -1 
+| 1 | 1 | 1 | 0
+
+Modified Booth's Algorithm is applied on the multiplier and then the multiplicand is multiplied with the multiplier. This decreases the total number of partial products by half, hence reducing Dadda reduction stages and CLA stages.
+
+The multiplicand passes through 3 multiplexers, choosing between A or 0 , A or -A , A or 2A. To note, instead of implementing the complete 2's complement circuit, ~A can found and the addition by 1 can be handled by the Dadda multiplier.
+
+The final addition is replaced by Carry Lookahead Adders, to further optimize the multiplier.
 
 
 
