@@ -388,6 +388,8 @@ The benefits of Modified Booth Dadda Multiplier with PPA is clearer with bigger 
 
 https://github.com/user-attachments/assets/b4fdb969-8f91-45d5-a7ba-74c511607dcd
 
+<img width="943" height="440" alt="image" src="https://github.com/user-attachments/assets/264e8af0-ba8e-4b5f-9c37-5a339be3422b" />
+
 
 
 
