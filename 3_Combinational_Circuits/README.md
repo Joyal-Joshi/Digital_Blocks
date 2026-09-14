@@ -267,15 +267,19 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ## 9.Multiplier (4 bit)
 
-### 9.1 Unsigned Array Multiplier (4 bits)
+### 9.1 Array Multiplier (Unsigned 4 bits)
 
 <img width="890" height="380" alt="image" src="https://github.com/user-attachments/assets/41fcc4c7-054d-4203-91f7-e454bca85c31" />
 
 The way multiplication is done normally is directly done using hardware in one clock cycle.
 
-https://github.com/user-attachments/assets/0da3f334-1b20-4970-bd94-181a42e689dc
+There are 2 parts to array multipliers: 
 
-https://www.falstad.com/s.php?s=hE9c3l
+- generating the partial products
+
+- adding the partial products
+
+https://github.com/user-attachments/assets/795e2dba-9add-4e1a-a87d-0abaa771481e
 
 Latency : O(2N)
 
@@ -283,8 +287,24 @@ Throughput: O(1/2N)
 
 Hardware: O(N^2)
 
-### 9.2 Carry-save Multiplier (4 bits)
+### 9.2 Carry-save Multiplier (Unsigned 4 bits)
 
-In Array multiplier, each row is a ripple carry adder, waiting for the carry to ripple through, increasing the delay. It does not matter when the carry is added to the partial products in that column. Hence, the carry can be passed to the next layer of adders, instead of waiting for the carry. The carry-save multiplier adds an an extra layer of adders at the end. The adder at the can be optimized using Lookahead adders for smaller delays.
+In Array multiplier, each row is a ripple carry adder, waiting for the carry to ripple through, increasing the delay.
 
+The carry-save multiplier does not wait for the carry to ripple. It does not matter when the carry is added to the partial products in a particular column. Hence, the carry is passed to the next layer of adders, instead of waiting for the carry. The carry-save multiplier adds an an extra layer of adders at the end, which can be optimized using Lookahead adders for smaller delays.
 
+This way carry-save multiplier makes the multiplier part independent of the rows.
+
+There are 3 parts to the Carry-save multipliers:
+
+- generate the partial products
+
+- Reducing the rows of partial products
+
+- Optimized Final Adder
+
+https://github.com/user-attachments/assets/923d357c-1c93-4cd7-ad79-2a8fbb00944f
+
+### 9.3 Wallace Tree Multiplier (Unsigned 4 bits)
+
+The partial products in a column can be added anytime and does not need to follow the fixed pattern. The Wallace tree tries to utilize this and rearranges the partial products in a row to reduce the rows as fast as possible.
