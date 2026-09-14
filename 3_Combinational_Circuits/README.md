@@ -143,7 +143,7 @@ https://github.com/user-attachments/assets/ee83337e-b2f1-41ff-a29e-600d09d0f647
 
 https://www.falstad.com/s.php?s=efT2bc
 
-## 8. 4 bit Adders
+## 8. Adder/Subtractors
 
 Adders can be designed in many ways depending on the optimization requirements.
 
@@ -270,7 +270,7 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 When combining smaller CLA blocks to make bigger ones, it introduces small amount of ripple. The tree structure of Parallel Prefix Adders completely remove it.
 
-
+https://github.com/user-attachments/assets/be03ee01-3e37-4ffb-b8b6-8d8fad9810b1
 
 ## 9.Multiplier (4 bit)
 
