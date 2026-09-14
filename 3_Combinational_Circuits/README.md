@@ -267,7 +267,7 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ## 9.Multiplier (4 bit)
 
-### 9.1 Unsigned Array Multiplier
+### 9.1 Unsigned Array Multiplier (4 bits)
 
 <img width="890" height="380" alt="image" src="https://github.com/user-attachments/assets/41fcc4c7-054d-4203-91f7-e454bca85c31" />
 
@@ -282,5 +282,9 @@ Latency : O(2N)
 Throughput: O(1/2N)
 
 Hardware: O(N^2)
+
+### 9.2 Carry-save Multiplier (4 bits)
+
+In Array multiplier, each row is a ripple carry adder, waiting for the carry to ripple through, increasing the delay. It does not matter when the carry is added to the partial products in that column. Hence, the carry can be passed to the next layer of adders, instead of waiting for the carry. The carry-save multiplier adds an an extra layer of adders at the end. The adder at the can be optimized using Lookahead adders for smaller delays.
 
 
