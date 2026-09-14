@@ -369,14 +369,14 @@ The modified booth recoding can be directly done by combining the above tables a
 
 | D2 | D1 | D0 | modified recode |
 | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0
-| 0 | 0 | 1 | 1 
-| 0 | 1 | 0 | 1 
-| 0 | 1 | 1 | 2
-| 1 | 0 | 0 | -2
-| 1 | 0 | 1 | -1
-| 1 | 1 | 0 | -1 
-| 1 | 1 | 1 | 0
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 2 |
+| 1 | 0 | 0 | -2 |
+| 1 | 0 | 1 | -1 |
+| 1 | 1 | 0 | -1 |
+| 1 | 1 | 1 | 0 |
 
 Modified Booth's Algorithm is applied on the multiplier and then the multiplicand is multiplied with the multiplier. This decreases the total number of partial products by half, hence reducing Dadda reduction stages and CLA stages.
 
@@ -384,6 +384,9 @@ The multiplicand passes through 3 multiplexers, choosing between A or 0 , A or -
 
 The final addition is replaced by Carry Lookahead Adders, to further optimize the multiplier.
 
+The benefits of Modified Booth Dadda Multiplier with PPA is clearer with bigger operands.
+
+https://github.com/user-attachments/assets/b4fdb969-8f91-45d5-a7ba-74c511607dcd
 
 
 
