@@ -267,7 +267,7 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ## 9.Multiplier (4 bit)
 
-### 9.1 Array Multiplier (Unsigned 4 bits)
+### 9.1 Array Multiplier (4 bits)
 
 <img width="890" height="380" alt="image" src="https://github.com/user-attachments/assets/41fcc4c7-054d-4203-91f7-e454bca85c31" />
 
@@ -287,13 +287,15 @@ Throughput: O(1/2N)
 
 Hardware: O(N^2)
 
-### 9.2 Carry-save Multiplier (Unsigned 4 bits)
+### 9.2 Carry-save Multiplier (4 bits)
 
 In Array multiplier, each row is a ripple carry adder, waiting for the carry to ripple through, increasing the delay.
 
 The carry-save multiplier does not wait for the carry to ripple. It does not matter when the carry is added to the partial products in a particular column. Hence, the carry is passed to the next layer of adders, instead of waiting for the carry. The carry-save multiplier adds an an extra layer of adders at the end, which can be optimized using Lookahead adders for smaller delays.
 
 This way carry-save multiplier makes the multiplier part independent of the rows.
+
+The critical path passes through 7 adders, compared to 8 adders in Array Multiplier. This difference grows with the size of operands.
 
 There are 3 parts to the Carry-save multipliers:
 
@@ -305,6 +307,37 @@ There are 3 parts to the Carry-save multipliers:
 
 https://github.com/user-attachments/assets/923d357c-1c93-4cd7-ad79-2a8fbb00944f
 
-### 9.3 Wallace Tree Multiplier (Unsigned 4 bits)
+### 9.3 Wallace Tree Multiplier (4 bits)
 
-The partial products in a column can be added anytime and does not need to follow the fixed pattern. The Wallace tree tries to utilize this and rearranges the partial products in a row to reduce the rows as fast as possible.
+The partial products in a column can be added anytime and does not need to follow the fixed pattern. The Wallace tree tries to utilize this and rearranges the additions of the partial products in a column to reduce the rows faster, using fewer layers of adders. 
+
+The critical path of Wallace tree for 4 bits passes through 6 adders, compared to 8 adders in Array Multiplier. This difference grows with the size of operands.
+
+The image below shows the Wallace Tree reduction for 8 X 8:
+
+<img width="544" height="674" alt="image" src="https://github.com/user-attachments/assets/53a0557c-684d-4886-b6fb-6109f87b4305" />
+
+https://github.com/user-attachments/assets/b9169df3-0bd7-4e01-82c9-a9139eace4f8
+
+### 9.4 Dadda Multipliers (4 bits)
+
+The Wallace Tree uses 5 Full Adders and 3 Half Adders in the reduction stage of 4x4 multipliers. The Full adders take 3 inputs and compress it to 2 outputs, whereas the Half adders don't do any compression. It just moves one bit to higher order. The multiplier is forced to use half adders, to reduce the extra bits. If the Wallace tree is expanded backwards, the optimal size for each layer can be obtained - 2,3,4,6,9,13,19,28,42,63. The Dadda multiplier only reduce the columns to the required size.
+
+The Dadda multiplier only uses 3 Full Adders and 3 Half adders for the reduction stage of 4x4 multiplier. But, the reduction hardware comes at the expense of larger bit size at the final adder. But, the optimization using Lookahead adders make up for it.
+
+The critical path of dadda multiplier for 4 bits passes through 6 adders, compared to 8 adders in Array Multiplier. This difference grows with the size of operands.
+
+The image below show the Dadda reduction for 8x8:
+
+<img width="188" height="308" alt="image" src="https://github.com/user-attachments/assets/de7493c6-549d-467c-83b2-d4cd1534e337" />
+
+https://github.com/user-attachments/assets/cc9898bc-7afc-4510-bc41-96f4c493e60b
+
+### 9.5 Modified Booth Dadda multiplier with CLA as fast adder (4 bits)
+
+
+
+
+
+
+
