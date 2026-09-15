@@ -274,7 +274,7 @@ https://github.com/user-attachments/assets/be03ee01-3e37-4ffb-b8b6-8d8fad9810b1
 
 ## 9.Multiplier (4 bit)
 
-### 9.1 Array Multiplier (4 bits)
+### 9.1 Array Multiplier (Unsigned 4 bits)
 
 <img width="890" height="380" alt="image" src="https://github.com/user-attachments/assets/41fcc4c7-054d-4203-91f7-e454bca85c31" />
 
@@ -294,7 +294,7 @@ Throughput: O(1/2N)
 
 Hardware: O(N^2)
 
-### 9.2 Carry-save Multiplier (4 bits)
+### 9.2 Carry-save Multiplier (Unsigned 4 bits)
 
 In Array multiplier, each row is a ripple carry adder, waiting for the carry to ripple through, increasing the delay.
 
@@ -314,7 +314,7 @@ There are 3 parts to the Carry-save multipliers:
 
 https://github.com/user-attachments/assets/923d357c-1c93-4cd7-ad79-2a8fbb00944f
 
-### 9.3 Wallace Tree Multiplier (4 bits)
+### 9.3 Wallace Tree Multiplier (Unsigned 4 bits)
 
 The partial products in a column can be added anytime and does not need to follow the fixed pattern. The Wallace tree tries to utilize this and rearranges the additions of the partial products in a column to reduce the rows faster, using fewer layers of adders. 
 
@@ -326,7 +326,7 @@ The image below shows the Wallace Tree reduction for 8 X 8:
 
 https://github.com/user-attachments/assets/b9169df3-0bd7-4e01-82c9-a9139eace4f8
 
-### 9.4 Dadda Multipliers (4 bits)
+### 9.4 Dadda Multipliers (Unsigned 4 bits)
 
 The Wallace Tree uses 5 Full Adders and 3 Half Adders in the reduction stage of 4x4 multipliers. The Full adders take 3 inputs and compress it to 2 outputs, whereas the Half adders don't do any compression. It just moves one bit to higher order. The multiplier is forced to use half adders, to reduce the extra bits. If the Wallace tree is expanded backwards, the optimal size for each layer can be obtained - 2,3,4,6,9,13,19,28,42,63. The Dadda multiplier only reduce the columns to the required size.
 
@@ -385,6 +385,8 @@ The multiplicand passes through 3 multiplexers, choosing between A or 0 , A or -
 The final addition is replaced by Carry Lookahead Adders, to further optimize the multiplier.
 
 The benefits of Modified Booth Dadda Multiplier with PPA is clearer with bigger operands.
+
+Modified Booth also handles signed bits.
 
 https://github.com/user-attachments/assets/b4fdb969-8f91-45d5-a7ba-74c511607dcd
 
