@@ -392,7 +392,24 @@ https://github.com/user-attachments/assets/b4fdb969-8f91-45d5-a7ba-74c511607dcd
 
 <img width="943" height="440" alt="image" src="https://github.com/user-attachments/assets/264e8af0-ba8e-4b5f-9c37-5a339be3422b" />
 
+## 10. Array Dividers (Unsigned 4 bits)
 
+The way division is done normally is directly done using hardware in one clock cycle.
+
+https://github.com/user-attachments/assets/77e0cd4f-de27-46e2-a2fc-7d68ad056489
+
+
+## 11. Barrel Shifters (32 bits)
+
+Shifting operation can be done using Shift registers in a sequential way. Instead, 2x1 mux can be used in layers to shift and select to make a shifter using pure combinational circuits. 
+
+Each bit in the shift amount becomes the selector for each layer of mux's The mux's in each layer will be select between the original input and the value shifted right by 2^shift_amount_bit.
+
+The left shifting is done by reversing the original value and then doing right shift operations and then reverting it back after the operations. These can also be achieved using mux's. 
+
+For logical shift 0 is used to fill the new spaces and for arithmetic A[31] is used.
+
+https://github.com/user-attachments/assets/208eab91-41ba-4b6a-9f3e-2e2e566d254b
 
 
 
