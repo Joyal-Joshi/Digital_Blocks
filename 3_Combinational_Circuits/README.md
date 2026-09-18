@@ -268,7 +268,7 @@ https://www.falstad.com/s.php?s=gz2sbL
 
 ### 8.5. Parallel Prefix Adders (8bits)
 
-When combining smaller CLA blocks to make bigger ones, it introduces small amount of ripple. The tree structure of Parallel Prefix Adders completely remove it.
+CLA needs to go back and forth to calculate the G and P first then to calculate the carry. The tree structure of Parallel Prefix Adders completely remove it, and only needs to traverse the tree once.
 
 https://github.com/user-attachments/assets/be03ee01-3e37-4ffb-b8b6-8d8fad9810b1
 
