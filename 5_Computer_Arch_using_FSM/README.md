@@ -36,15 +36,9 @@ Any computational problem can be modeled as a Finite State machine. Any finite s
 
 <img width="389" height="174" alt="image" src="https://github.com/user-attachments/assets/4fb01fc4-c956-4e15-bdf1-12992de5c930" />
 
-The original FSM should consist of variables a and b as the state, and the combinational circuit will convert it to the next state. However, this will lead to 2^64 different states, as each variable is 32 bits in size. A pattern can be observed among these states depending on the operations done. The states can be classified wrt these patterns. The next state only depends on these subclass and the status bits, calculated from the variables. The sub-class can replace the old states.
+From the FSM diagram, three distinct states can be identified for the above problem. The start, loop and stop. The sequential circuit for the problem will consist of three registers which can store the values of a, b and the state. 32 bit registers should be enough to solve this problem.
 
-Hence, the FSM can be divided into two parts: a Control FSM and a Datapath FSM. The control FSM converts the current state and status bits to the next state and the control bits for the Datapath FSM. The Datapath FSm will convert the variables for t he next state.
-
-From the FSM diagram, three distinct states can be identified for the above problem. The start, loop and stop. The sequential circuit for the problem will consist of three registers which can store the values of a, b and the state. 
-
-The combinational circuits take the state value and internal states a and b to calculate the next state. The combinational circuit can also be replaced with a lookup table made of ROM. 32 bit registers should be enough to solve this problem.
-
-
+The combinational circuits take the state value and the data a and b to calculate the next state. The combinational circuit can also be replaced with a lookup table made of ROM. The control inputs from Combinational circuit will decide how the data will change from this state to the other. It can be observed by now, that there two distinct paths: a control path and a data path. Both can be considered as separate FSM's.
 
 https://github.com/user-attachments/assets/5648d2c4-5d18-4aa6-996f-021d53368ff1
 
