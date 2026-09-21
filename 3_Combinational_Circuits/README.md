@@ -386,11 +386,11 @@ The final addition is replaced by Carry Lookahead Adders, to further optimize th
 
 The benefits of Modified Booth Dadda Multiplier with PPA is clearer with bigger operands.
 
-Modified Booth also handles signed bits.
+To note, the partial products should be sign extended to full extend to account for the signed values. This will add for adders in the dadda multiplier, but the delay will remain the same.
 
-https://github.com/user-attachments/assets/b4fdb969-8f91-45d5-a7ba-74c511607dcd
+https://github.com/user-attachments/assets/8679261c-a0bf-4444-ad21-08b74003da58
 
-<img width="943" height="440" alt="image" src="https://github.com/user-attachments/assets/264e8af0-ba8e-4b5f-9c37-5a339be3422b" />
+<img width="755" height="674" alt="image" src="https://github.com/user-attachments/assets/ae016d33-aebe-4696-958b-0a0ed8384704" />
 
 ## 10. Array Dividers (Unsigned 4 bits)
 
