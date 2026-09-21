@@ -390,7 +390,7 @@ To note, the partial products should be sign extended to full extend to account 
 
 https://github.com/user-attachments/assets/8679261c-a0bf-4444-ad21-08b74003da58
 
-<img width="755" height="674" alt="image" src="https://github.com/user-attachments/assets/ae016d33-aebe-4696-958b-0a0ed8384704" />
+<img width="781" height="692" alt="image" src="https://github.com/user-attachments/assets/b36e297c-f928-4924-bbb1-7e5443b33255" />
 
 ## 10. Array Dividers (Unsigned 4 bits)
 
