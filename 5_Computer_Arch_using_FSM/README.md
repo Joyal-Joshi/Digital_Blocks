@@ -54,7 +54,7 @@ The FSM made above can only solve factorials. To make a more generic computing d
 
 4. Remove the status bits from the inputs to the control FSM and add it to the combinational circuit inside the control FSM. Also, make the default next state as the current state + state_size. This makes the control FSM a function of the current state only, and the states become equivalent to the address of the instruction.
 
-5. Encode the output of the control FSN to smaller bits, mostly equal to the size of datapath, and add a decoder to decipher it. This encoded output is also known as the ISA(Instruction Set Architecture) of the micro-controller.
+5. Encode the output of the control FSM to smaller bits, mostly equal to the size of datapath, and add a decoder to decipher it. This encoded output is also known as the ISA(Instruction Set Architecture) of the micro-controller.
 
 6. Allow constants to be added in the instruction for initialization.
 
