@@ -121,9 +121,9 @@ https://www.falstad.com/s.php?s=GZOXZO
 
 Shift Registers are used to convert a serial input (1 bit) to parallel output (8 bit). The D flips-flops used to make the registers are cascaded to form the shift registers.
 
-https://github.com/user-attachments/assets/0a923ebb-018a-4b9f-910e-8a9429b5c156
+https://github.com/user-attachments/assets/fc49cfcb-c06d-4e4b-b638-0bfd4b796013
 
-https://www.falstad.com/s.php?s=8uEDqH
+https://www.falstad.com/s.php?s=ERjjR9
 
 ## 3.3 Counters (4 bit)
 
