@@ -71,13 +71,23 @@ https://github.com/user-attachments/assets/8336c5e8-72f2-475a-9cea-fcdbed02e632
 
 https://www.falstad.com/s.php?s=CO7JrL
 
-## 2.2.1 D Flip-FLop with PR & CLR
+
+
+## 2.2.1. D Flip-FLop with PR & CLR
 
 The D flip-Flops will be used primarily to make Registers. Then the Preset and Clear signals can be used to reliably control the starting state of the registers. Note that, PR and CLR change the outputs asynchronously. PR and CLR can be added to any type of Flip-Flop.
 
 https://github.com/user-attachments/assets/495bd5a7-934e-4133-8b59-cd847ad70353
 
 https://www.falstad.com/s.php?s=GgHNZP
+
+## 2.2.2. Gated D Flip-Flop
+
+The Data have to be gated to ensure the Data is not overwritten when not needed using the Enable signal. The Enable signal and clock signal can be "Anded" to solve it. But Gate keeping clock signals can generate unwanted glitches, hence a mux can be used with D flip-flop to gate it.
+
+https://github.com/user-attachments/assets/fe558db6-dcd7-4b6f-a85b-25e0d29ff00b
+
+https://www.falstad.com/s.php?s=E9Tmtc
 
 ## 2.3. JK Flip-Flop
 
