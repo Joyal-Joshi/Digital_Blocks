@@ -51,13 +51,13 @@ https://github.com/user-attachments/assets/afbc88eb-24e3-42b1-806d-1623738ab27b
 
 The pulse width above is t_pd_not + t_pd_and. The pulse width should be above slightly above t_pd for the value to be registered by the flip-flop. Depending on the timing analysis the minimum pulse width can be calculated.
 
-## 2.1.1. Master-Slave SR Flip-Flop
+### 2.1.1. Master-Slave SR Flip-Flop
 
 https://github.com/user-attachments/assets/73a8135e-2796-4f8b-9b4a-e7620084a220
 
 https://www.falstad.com/s.php?s=J6LVAO
 
-## 2.1.2. Edge Triggered SR Flip-Flop
+### 2.1.2. Edge Triggered SR Flip-Flop
 
 https://github.com/user-attachments/assets/9059467e-d2d5-433d-aa85-2178b405d591
 
@@ -71,9 +71,7 @@ https://github.com/user-attachments/assets/8336c5e8-72f2-475a-9cea-fcdbed02e632
 
 https://www.falstad.com/s.php?s=CO7JrL
 
-
-
-## 2.2.1. D Flip-FLop with PR & CLR
+### 2.2.1. D Flip-FLop with PR & CLR
 
 The D flip-Flops will be used primarily to make Registers. Then the Preset and Clear signals can be used to reliably control the starting state of the registers. Note that, PR and CLR change the outputs asynchronously. PR and CLR can be added to any type of Flip-Flop.
 
@@ -81,7 +79,7 @@ https://github.com/user-attachments/assets/495bd5a7-934e-4133-8b59-cd847ad70353
 
 https://www.falstad.com/s.php?s=GgHNZP
 
-## 2.2.2. Gated D Flip-Flop
+### 2.2.2. Gated D Flip-Flop
 
 The Data have to be gated to ensure the Data is not overwritten when not needed using the Enable signal. The Enable signal and clock signal can be "Anded" to solve it. But Gate keeping clock signals can generate unwanted glitches, hence a mux can be used with D flip-flop to gate it.
 
@@ -115,9 +113,9 @@ https://www.falstad.com/s.php?s=o0bz1G
 
 Flip-Flops can be used in parallel to form the Registers. Registers are used to store multiple bits.
 
-https://github.com/user-attachments/assets/69c3b378-0bb5-49f6-8e97-4e149542fb26
+https://github.com/user-attachments/assets/3aacc8a9-fa9a-4c6c-9614-e1bf375260d3
 
-https://www.falstad.com/s.php?s=WeEuRZ
+https://www.falstad.com/s.php?s=GZOXZO
 
 ## 3.2 Shift Registers (8 bit)
 
