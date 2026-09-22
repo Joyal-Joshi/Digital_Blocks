@@ -146,6 +146,15 @@ https://github.com/user-attachments/assets/3e422a9c-c4ed-452c-a593-3b78be5c66c3
 
 https://www.falstad.com/s.php?s=zxDZvi
 
+### 3.4. Multi-Ported Register File (32 bits)
+
+A collection of 32 registers, each being a 32 bit register, with 1 destination register and two source registers. 2^5 bits will be needed to address these registers. 
+
+
+https://github.com/user-attachments/assets/a69357e3-feeb-4f4d-acc4-8aa02249bae2
+
+
+
 
 
 
