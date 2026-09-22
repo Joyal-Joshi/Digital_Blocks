@@ -411,5 +411,21 @@ For logical shift 0 is used to fill the new spaces and for arithmetic A[31] is u
 
 https://github.com/user-attachments/assets/208eab91-41ba-4b6a-9f3e-2e2e566d254b
 
+## 12. 32 bit Arithmetic Logic Unit (ALU)
+
+All the combinational circuits can be combined into one block. 
+
+The circuit below does:
+
+Arithmetic: Addition, Subtraction , Multiplication ,Division
+
+Logical: ADD, OR, XOR, XNOR
+
+Shift operations: Shift Left Logical, Shift Right Logical, Shift Right Arithmetic
+
+Comparative : Compare if Equal, Compare if Less than or Equal, Compare if Less Than
+
+https://github.com/user-attachments/assets/9bdbf7b4-d4ff-40fd-bb53-e0b30be08dea
+
 
 
