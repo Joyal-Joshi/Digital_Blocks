@@ -3,4 +3,4 @@
 3. DRAM
 
 
-Parameters for cache design: cache size, block size, cache architecture, N-ways, Replacement algorithm, Writing policy, cache heirarchy
+Parameters for cache design: cache size, block size, N-ways, Replacement algorithm, Writing policy, cache heirarchy
