@@ -2,8 +2,6 @@ Example Problem: Find the Factorial of N?
 
 The problem above will be used to demonstrate the evolution of computer architecture from a simple FSM.
 
-
-
 # 1. FSM to solve a specific problem
 
 ## 1.a. writing C Code or pseudo-code for finding factorial of N
@@ -26,23 +24,21 @@ A finite state machine is a machine that stays in a fixed state from a fixed num
 
 <img width="362" height="176" alt="image" src="https://github.com/user-attachments/assets/7661e16a-589f-4418-8150-670bb39e9881" />
 
-The finite state machine can be modeled as shown below to calculate the factorial of N.
+The finite state machine to calculate the factorial of N can be modeled as shown below:
 
 <img width="206" height="90" alt="image" src="https://github.com/user-attachments/assets/79dd9156-fa1a-4f7f-94d9-d04f9a84333a" />
 
 ## 1.c. Implementing the FSM
 
-Any computational problem can be modeled as a Finite State machine. Any finite state machine is a combination of sequential and combinational circuits. The sequential circuits store the current state and the combinational circuits uses the external inputs and the current state to find the next valid state, and store it back into the sequential circuit.
+Each state at a moment in the Finite State Machine can be stored using sequential circuits and the next state can be calculated using the current state and the external inputs using combinational circuits. Hence, any FSM, can be modeled as a combination of sequential and combinational circuits as shown in the figure below:
 
 <img width="389" height="174" alt="image" src="https://github.com/user-attachments/assets/4fb01fc4-c956-4e15-bdf1-12992de5c930" />
 
-From the FSM diagram, three distinct states can be identified for the above problem. The start, loop and stop. The sequential circuit for the problem will consist of three registers which can store the values of a, b and the state. 32 bit registers should be enough to solve this problem.
-
-The combinational circuits take the state value and the data a and b to calculate the next state. The combinational circuit can also be replaced with a lookup table made of ROM. The control inputs from Combinational circuit will decide how the data will change from this state to the other. It can be observed by now, that there two distinct paths: a control path and a data path. Both can be considered as separate FSM's.
+If we assume the variables a and b to be stored in 32 bit Registers, then there are 2^66 possible states, {var_a(32) + var_b(32) + a_sel + b_sel = 66}. The number of states can be reduced by dividing the single FSM to two distinct dependent FSM's: control FSM and Datapath FSM. The next state only depends on the current state and the status of the Datapath FSM which reduces the size of the state. The next state and the control for the Datapath FSM is calculated by the control FSM. 
 
 https://github.com/user-attachments/assets/5648d2c4-5d18-4aa6-996f-021d53368ff1
 
-# 2. Making a General computer using FSM
+# 2. Von-Neumann Computer
 
 The FSM made above can only solve factorials. To make a more generic computing device:
 
